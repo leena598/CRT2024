@@ -1,0 +1,11 @@
+
+READ A CODE AND PRINT CHARACTER FOR THE GIVEN CODE
+
+#inclide<stdio.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+    printf("%c",a);
+    return 0;
+}
