@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int s,l,b;
+        float r;
+        s=sc.nextInt();
+        l=sc.nextInt();
+        b=sc.nextInt();
+        r=sc.nextFloat();
+        int Sarea=s*s;
+        int Rarea=l*b;
+        float Carea=(float)3.14*r*r;
+        System.out.println(Sarea);
+        System.out.println(Rarea);
+        System.out.printf("%.2f",Carea);
+    }
+}
