@@ -1,0 +1,23 @@
+import java.util.*;
+class Prime
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+int n,c=0,r=0;
+n=s.nextInt();
+for(int i=1;i<=n;i++)
+{
+r++;
+if(n%1==0)
+{
+c++;
+}
+System.out.println(r); 
+if(c==2)
+System.out.println("prime no");
+else
+System.out.println("not a prime no");
+}
+}
+}
