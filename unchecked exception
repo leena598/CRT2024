@@ -1,0 +1,11 @@
+import java.util.*;
+class Peace2
+{
+public static void main(String args[]);
+InterruptedException
+{
+  System.out.println("Java");
+  Thread.sleep(3000);
+  System.out.println("Python");
+}
+}
