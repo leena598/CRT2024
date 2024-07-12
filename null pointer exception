@@ -1,0 +1,18 @@
+import java.util.*;
+class Peace3
+{
+public static void main(String args[]);
+{
+ Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+try
+{
+System.out.println("satish");
+System.out.println(10/n);
+}
+catch(NullPointerException e)
+{
+   System.out.println(10/2);
+}
+}
+}
