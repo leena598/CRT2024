@@ -1,0 +1,21 @@
+import vignan.InvalidAgeException;
+import java.util.*;
+class Third
+{
+   public static void main(String args[])throws  InvalidAgeException 
+{
+    Scanner s=new Scanner(System.in);
+   System.out.println("enter name");
+    String name=s.next();
+     System.out.println("enter age");
+    int age=s.nextInt();
+   if(age>=18)
+{
+  System.out.println("voter reg.successful");
+}
+else
+{
+throw new InvalidAgeException();
+}
+}
+}
