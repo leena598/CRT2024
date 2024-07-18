@@ -1,0 +1,27 @@
+import java.util.*;
+class Dublicate1
+{
+   public static void main(String args[])
+{
+   Scanner s=new Scanner(System.in);
+  Integer n=s.nextInt();
+  Integer a[]=new Integer[n];
+  for(int i=0;i<n;i++)-
+{
+   a[i]=s.nextInt();
+}
+ArrayList<Integer> a1=new ArrayList<>
+(Arrays.asList(a));
+for(int i=0;i<a1.size();i++)
+{
+for(int j=i+1;j<a1.size();j++)
+{
+if(a1.get(i)==a1.get(j))
+{
+a1.remove(j);
+}
+}
+}
+}
+}
+
