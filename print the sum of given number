@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+     int min,max,sum=0;
+    scanf("%d",&min);
+     scanf("%d",&max);
+    
+    if(min>max)
+    {
+        return -1;
+    }
+     for(int i=min;i<=max;i++)
+     {
+         sum+=i;
+     }
+    printf("%d",sum);
+         return 0;
+}
