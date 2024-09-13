@@ -1,0 +1,11 @@
+def sum_until_negative_one():
+    total=0
+    while True:
+        num=int(input())
+        if num==-1:
+            break
+        total += num
+    return total
+if __name__ == "__main__":
+    result = sum_until_negative_one()
+    print(result)
