@@ -1,0 +1,12 @@
+def calculate_discount(bill_amount):
+    discount=0
+    bill_str = str(bill_amount)
+    
+    for digit in bill_str:
+        digit = int(digit)
+        if digit % 2 == 1:
+            discount += digit
+    return discount
+bill_amount = int(input())
+discount = calculate_discount(bill_amount)
+print(discount)    
