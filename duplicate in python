@@ -1,0 +1,11 @@
+l=[10,20,10.10,20,30,30,20,40,10]
+i=0
+while i<len(l)-1:
+    j=i+1
+    while j<len(l):
+        if l[i]==l[j]:
+            l.pop(j)
+        if j<len(l) and l[j]!=l[i]:
+            j+=1
+    i+=1
+print(l)   
