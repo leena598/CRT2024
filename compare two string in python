@@ -1,0 +1,13 @@
+def compare_strings(string1,string2):
+    if string1 == string2:
+        return "Strings are same"
+    else:
+        return "Strings are not same"
+
+input_string1 = input()
+input_string2 = input()
+
+result = compare_strings(input_string1, input_string2)
+print(result)
+
+ 
