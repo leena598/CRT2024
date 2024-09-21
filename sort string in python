@@ -1,0 +1,11 @@
+def sort_string(input_string):
+    char_list = list(input_string)
+  
+    char_list.sort()
+   
+    sorted_string = ''.join(char_list)
+    return sorted_string
+
+input_string = input()
+sorted_string = sort_string(input_string)
+print(sorted_string)
